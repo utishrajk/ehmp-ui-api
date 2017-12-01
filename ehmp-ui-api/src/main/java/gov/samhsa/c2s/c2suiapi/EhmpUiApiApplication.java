@@ -10,9 +10,9 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 @EnableDiscoveryClient
 @EnableFeignClients
 @EnableResourceServer
-public class C2sUiApiApplication {
+public class EhmpUiApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(C2sUiApiApplication.class, args);
+        SpringApplication.run(EhmpUiApiApplication.class, args);
     }
 }
