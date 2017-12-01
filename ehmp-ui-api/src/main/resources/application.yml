@@ -1,0 +1,10 @@
+server:
+  port: 8081
+logging:
+  file: /java/EHMP_LOGS/ehmp-ui-api/ehmp-ui-api.log
+info:
+  component: C2S EHMP API
+ribbon:
+  ReadTimeout: 50000
+hystrix.command.default.execution.timeout.enabled: false
+
